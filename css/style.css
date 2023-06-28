@@ -22,8 +22,12 @@ html {
     background-color: bisque;
     padding: 10px;
     width: 100%;
+    list-style-type: none;
     
     
+}
+.js-tasks {
+    list-style-type: none;
 }
 .form__button {
     width:auto;
@@ -31,5 +35,22 @@ html {
     background-color: rgb(18, 127, 131);
     color: rgb(255, 255, 255);
     padding: 5px;
-    
+}
+.js-remove {
+    height: 30px;
+    width: auto;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.js-done {
+    height: 40px;
+    width: auto;
+    background-color: rgb(6, 116, 11);
+    border: none;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
 }
