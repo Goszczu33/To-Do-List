@@ -1,25 +1,6 @@
 {
  const tasks = [
-{
-    content: "Wstać i zjeść śniadanie",
-    done: false,
-},
-{ 
-content: "Ucałować żonę",
-done: false,
-},
-{ 
-    content: "Zrobić obiad",
-    done: false,
-    },
- { 
-    content: "Posprzątać dom",
-         done: false,
-      },
-{ 
-    content: "Wyprowadzić corgosa na spacer",
-    done: false,
-     },
+
  ];
 
  const addNewTask = (newTaskContent) => {
@@ -67,9 +48,10 @@ for (const task of tasks) {
     <li 
     ${task.done ? " style=\"text-decoration: line-through\"" : ""} 
     >
-    <button class="js-done">zrobione?</button>
-    <button class="js-remove">usuń</button>
-${task.content}
+    <button class="js-done">${task.done ? "" : "zaznacz"} </button>
+    ${task.content}
+    <button class="js-remove"> delete </button>
+
     </li>
     `;
 }
