@@ -1,13 +1,25 @@
 {
  const tasks = [
 {
-    content: "kocham myrtka",
+    content: "Wstać i zjeść śniadanie",
     done: false,
 },
 { 
-content: "zjeść pierogi",
-done: true,
+content: "Ucałować żonę",
+done: false,
 },
+{ 
+    content: "Zrobić obiad",
+    done: false,
+    },
+ { 
+    content: "Posprzątać dom",
+         done: false,
+      },
+{ 
+    content: "Wyprowadzić corgosa na spacer",
+    done: false,
+     },
  ];
 
  const addNewTask = (newTaskContent) => {
