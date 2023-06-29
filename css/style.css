@@ -13,21 +13,25 @@ html {
     margin: 0;
     display: block;
     box-sizing: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+    font-size: large;
 }
 .conteiner {
-    margin: 0px auto;
+    max-width: 900px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 .form_fieldset {
-    background-color: bisque;
-    padding: 10px;
+    background-color: rgb(255, 254, 253);
+    padding: 5px;
     width: 100%;
     list-style-type: none;
-    
     
 }
 .js-tasks {
     list-style-type: none;
+   
 }
 .form__button {
     width:auto;
@@ -38,19 +42,24 @@ html {
 }
 .js-remove {
     height: 30px;
-    width: auto;
+    width: 30px;
     background-color: red;
     border: none;
     color: white;
-    cursor: pointer;
+    border-radius: 20%;
+  
+ 
 }
 
 .js-done {
-    height: 40px;
-    width: auto;
+    height: 30px;
+    width: 30px;
     background-color: rgb(6, 116, 11);
     border: none;
     color: white;
-    font-size: medium;
-    cursor: pointer;
+    border-radius: 20%;
+}
+.js-newTask {
+    width: 100%;
+    max-width: 700px;
 }
