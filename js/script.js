@@ -48,9 +48,9 @@ for (const task of tasks) {
     <li 
     ${task.done ? " style=\"text-decoration: line-through\"" : ""} 
     >
-    <button class="js-done">${task.done ? "" : "zaznacz"} </button>
-    ${task.content}
-    <button class="js-remove"> delete </button>
+    <button class="js-done">${task.done ? "" : "✓"} </button>
+    ${task.content} 
+    <button class="js-remove"> ❌ </button>
 
     </li>
     `;
