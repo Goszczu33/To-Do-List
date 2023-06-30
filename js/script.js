@@ -45,7 +45,7 @@ let htmlString = "";
 
 for (const task of tasks) {
     htmlString += `
-    <li class="js-change"
+    <li class="js-taskWords"
     ${task.done ? " style=\"text-decoration: line-through\"" : ""} 
     >
     <button class="js-done">${task.done ? "" : "✓"} </button>
