@@ -21,17 +21,21 @@
 <body class="body">
     <div class="conteiner">
 <form class="form js-form">
-    <h1> Lista Zadań </h1>
-    <fieldset class="form_fieldset"> 
-       <h2> Dodaj nowe zadanie </h2>
-    </fieldset>
-    <fieldset class="form_fieldset form_fieldsetAddNewTask"> <input class="js-newTask" reset placeholder="Co jest do zrobienia?">
-    <button class="form__button"> Dodaj zadanie </button>
-</fieldset>
-<fieldset class="form_fieldset"> <h2> Lista zadań </h2> </fieldset>
-<fieldset class="form_fieldset">
-<ul class="js-tasks"> </ul>
-</fieldset>
+    <header> 
+        <h1> Lista Zadań </h1> 
+    </header>
+    <section class="section_body"> 
+            <h2 class="header"> Dodaj nowe zadanie </h2> 
+            <input class="js-newTask" reset placeholder="Co jest do zrobienia?">
+            <button class="form_button"> Dodaj zadanie </button>
+     </section>
+     <section> 
+        <fieldset class="form_fieldset">
+             <h2 class="header"> Lista zadań </h2>
+            
+             <ul class="js-tasks task_item"> </ul>
+        </fieldset>
+     </section>
 </form>
 </div>
 </body>
