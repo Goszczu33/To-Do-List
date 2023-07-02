@@ -44,7 +44,7 @@
     ${task.done ? ' style="text-decoration: line-through"' : ""} 
     >
     <button class="js-done">${task.done ? "✓ " : ""} </button>
-    ${task.content} 
+    ${task.content}
     <button class="js-remove"> ❌ </button>
 
     </li>
