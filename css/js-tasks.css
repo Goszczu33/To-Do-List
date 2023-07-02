@@ -4,7 +4,6 @@
     grid-gap: 20px;
     list-style-type: none;
     padding: 10px;
-    justify-content: space-between;
 }
 
 .js-remove {
@@ -16,10 +15,9 @@
     border-radius: 20%;
 }
 
-
 .js-taskWords {
     border-bottom: 2px solid gray;
-    width: 800px;
+max-width: 100%;
     padding: 10px;
     border-bottom: 2px solid gray;
     display: flex;

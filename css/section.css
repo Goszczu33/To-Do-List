@@ -1,13 +1,10 @@
 .section {
     background-color: white;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
     margin: 10px;
 }
-.section__conteiner {
-    padding: 5px;
-    width: 100%;
-}
+
 .section__header {
     border-bottom: 2px solid #ccc;
 }
