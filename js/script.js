@@ -48,7 +48,7 @@ for (const task of tasks) {
     <li class="js-taskWords"
     ${task.done ? " style=\"text-decoration: line-through\"" : ""} 
     >
-    <button class="js-done">${task.done ? "" : "✓"} </button>
+    <button class="js-done">${task.done ? "✓" : ""} </button>
     ${task.content} 
     <button class="js-remove"> ❌ </button>
 
@@ -63,17 +63,18 @@ bindEvents();
  };
 
  
-const onFormSubmit = (event) => {
+ const onFormSubmit = (event) => {
     event.preventDefault();
 
-    const newTaskContent = document.querySelector(".js-newTask").value.trim();
+    const newTaskInput = document.querySelector(".js-newTask");
+    const newTaskContent = newTaskInput.value.trim();
 
-    if (newTaskContent === "") {
-        return;
+    if(newTaskContent !== "") {
+     addNewTask(newTaskContent);
+     newTaskInput.value = "";
     }
-addNewTask(newTaskContent);
-  
-}
+    newTaskInput.focus();
+ };
 
     const  init = () => {
 render (); 
