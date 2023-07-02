@@ -72,6 +72,7 @@ html {
 .js-taskWords {
     border-bottom: 2px solid gray;
     width: 800px;
+    padding: 10px;
     border-bottom: 2px solid gray;
     display: flex;
     flex-direction: row;
@@ -80,7 +81,6 @@ html {
 
 .js-task {
 display: grid;
-border-bottom: 3px solid darkblue
 }
 .js-done {
     height: 30px;
