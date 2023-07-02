@@ -1,0 +1,10 @@
+.form_button {
+    width:auto;
+    border: none;
+    background-color: rgb(18, 127, 131);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+.form_button:hover {
+    background-color: rgb(20, 194, 156);
+}

@@ -1,0 +1,47 @@
+
+.task_item {
+    display: grid;
+    grid-gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.js-remove {
+    height: 30px;
+    width: 35px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 20%;
+}
+
+
+.js-taskWords {
+    border-bottom: 2px solid gray;
+    width: 800px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.js-task {
+display: grid;
+}
+.js-done {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(6, 116, 11);
+    border: none;
+    color: white;
+    border-radius: 20%;
+}
+.js-newTask {
+    width: 100%;
+    max-width: 700px;
+   border: 1px solid #000000;
+   font-size: larger;
+
+}
