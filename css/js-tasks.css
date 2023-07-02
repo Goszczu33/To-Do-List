@@ -43,3 +43,8 @@ display: grid;
    font-size: larger;
 
 }
+
+.js-taskContent {
+    display: grid;
+    justify-content: center;
+}
