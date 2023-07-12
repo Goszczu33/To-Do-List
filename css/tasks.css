@@ -1,12 +1,19 @@
 
-.task_item {
-    display: grid;
-    grid-gap: 20px;
-    list-style-type: none;
-    padding: 10px;
+.tasks {
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
-.js-remove {
+.tasks__item{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.delate__toggleButton {
     height: 30px;
     width: 35px;
     background-color: red;
@@ -14,21 +21,11 @@
     color: white;
     border-radius: 20%;
 }
-
-.js-taskWords {
-    border-bottom: 2px solid gray;
-max-width: 100%;
-    padding: 10px;
-    border-bottom: 2px solid gray;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.delate__toggleButton:hover {
+    background-color: rgb(199, 22, 22);
 }
 
-.js-task {
-display: grid;
-}
-.js-done {
+.tasks__toggleButton {
     height: 30px;
     width: 30px;
     background-color: rgb(6, 116, 11);
@@ -36,15 +33,12 @@ display: grid;
     color: white;
     border-radius: 20%;
 }
-.js-newTask {
-    width: 100%;
-    max-width: 700px;
-   border: 1px solid #000000;
-   font-size: larger;
-
+.tasks__toggleButton:hover {
+    background-color: rgb(54, 173, 17);
 }
-
-.js-taskContent {
-    display: grid;
-    justify-content: center;
+.tasks__content {
+    font-size: larger;
+}
+.tasks__ContentDone {
+    text-decoration: line-through;
 }

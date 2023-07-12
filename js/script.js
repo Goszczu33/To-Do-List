@@ -18,7 +18,7 @@
     render();
   };
   const bindEvents = () => {
-    const removeButtons = document.querySelectorAll(".js-remove");
+    const removeButtons = document.querySelectorAll(".delate__toggleButton");
 
     removeButtons.forEach((removeButton, index) => {
       removeButton.addEventListener("click", () => {
@@ -26,7 +26,7 @@
       });
     });
 
-    const toggleDoneButtons = document.querySelectorAll(".js-done");
+    const toggleDoneButtons = document.querySelectorAll(".tasks__toggleButton");
 
     toggleDoneButtons.forEach((removeDoneButton, index) => {
       removeDoneButton.addEventListener("click", () => {
@@ -40,13 +40,16 @@
 
     for (const task of tasks) {
       htmlString += `
-    <li class="js-taskWords">
-    <button class="js-done">${task.done ? "✓ " : ""} </button>
-    <span class="js-taskContent"${
-      task.done ? ' style="text-decoration: line-through"' : ""
-    }> ${task.content}
+    <li class="tasks__item js-task"
+    >
+    <button class="tasks__toggleButton">
+    ${task.done ? "✓ " : ""} 
+    </button>
+    <span class="js-taskContent tasks__content
+    ${task.done ? " tasks__ContentDone" : ""}">
+    ${task.content}
     </span>
-    <button class="js-remove"> ❌ </button>
+    <button class="delate__toggleButton"> ❌ </button>
 
     </li>
     `;
