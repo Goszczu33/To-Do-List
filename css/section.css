@@ -5,11 +5,28 @@
 }
 
 .section__header {
-    border-bottom: 2px solid #ccc;
+    
     font-size: 25px;
     padding: 20px;
     margin: 0;
 }
 .section__body {
     padding: 20px;
+}
+
+.section__buttonsDone {
+    color: teal;
+    background-color: white;
+    font-size: large;
+    border: none;
+    transition: 1s;
+}
+.section__buttonsDone:hover {
+    color: aqua;
+}
+.section__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
 }
