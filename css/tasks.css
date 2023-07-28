@@ -42,3 +42,6 @@ padding: 0;
 .tasks__ContentDone {
     text-decoration: line-through;
 }
+.list__item--hidden {
+    display: none;
+}
