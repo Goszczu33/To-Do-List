@@ -18,7 +18,9 @@
     background-color: rgb(18, 127, 131);
     color: rgb(255, 255, 255);
     padding: 10px;
+    transition: 0.5s;
 }
 .form__button:hover {
     background-color: rgb(20, 194, 156);
+    transform: scale(1.2);
 }
