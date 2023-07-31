@@ -1,26 +1,26 @@
-.form{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-gap: 20px;
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 20px;
 }
 
-@media(max-width: 767px) {
-    .form {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 767px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
 }
 .form__input {
-    padding: 10px;
-    border: 1px solid #ddd;
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 .form__button {
-    border: none;
-    background-color: rgb(18, 127, 131);
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    transition: 0.5s;
+  border: none;
+  background-color: rgb(18, 127, 131);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: 0.3s;
 }
 .form__button:hover {
-    background-color: rgb(20, 194, 156);
-    transform: scale(1.2);
+  background-color: rgb(25, 183, 189);
+  transform: scale(1.2);
 }

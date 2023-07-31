@@ -1,32 +1,46 @@
 .section {
-    background-color: white;
-    margin: 10px 0;
-    box-shadow: 0 0 5px #ddd;
+  background-color: white;
+  margin: 10px 0;
+  box-shadow: 0 0 5px #ddd;
 }
 
 .section__header {
-    
-    font-size: 25px;
-    padding: 20px;
-    margin: 0;
+  font-size: 25px;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+.section__headerTask {
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section__body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .section__buttonsDone {
-    color: teal;
-    background-color: white;
-    font-size: large;
-    border: none;
-    transition: 1s;
+  color: teal;
+  background-color: white;
+  font-size: large;
+  border: none;
+  transition: 1s;
 }
 .section__buttonsDone:hover {
-    color: aqua;
+  color: aqua;
 }
 .section__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding: 20px;
+  margin: 0;
+}
+.section__buttons {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }

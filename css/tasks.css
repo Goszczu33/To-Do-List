@@ -1,47 +1,46 @@
-
 .tasks {
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.tasks__item{
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.tasks__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 .delate__toggleButton {
-    height: 30px;
-    width: 35px;
-    background-color: red;
-    border: none;
-    color: white;
-    border-radius: 20%;
+  height: 30px;
+  width: 35px;
+  background-color: red;
+  border: none;
+  color: white;
+  transition: 0.3s;
 }
 .delate__toggleButton:hover {
-    background-color: rgb(199, 22, 22);
+  background-color: rgb(199, 22, 22);
 }
 
 .tasks__toggleButton {
-    height: 30px;
-    width: 30px;
-    background-color: rgb(6, 116, 11);
-    border: none;
-    color: white;
-    border-radius: 20%;
+  height: 30px;
+  width: 35px;
+  background-color: rgb(6, 116, 11);
+  border: none;
+  color: white;
+  transition: 0.3s;
 }
 .tasks__toggleButton:hover {
-    background-color: rgb(54, 173, 17);
+  background-color: rgb(54, 173, 17);
 }
 .tasks__content {
-    font-size: larger;
+  font-size: larger;
 }
 .tasks__ContentDone {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 .list__item--hidden {
-    display: none;
+  display: none;
 }
